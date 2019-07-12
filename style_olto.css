@@ -1,0 +1,201 @@
+﻿@charset "UTF-8";
+
+/* 全体 */
+html {
+	font-family: sans-serrif;
+}
+	/*　コンテンツ領域からボーダー領域　レスポンシブデザイン　*/
+html * {
+	box-sizing: boder-box;
+}
+.wrapper {
+	margin: 0 auto 0 auto;
+	max-width: 960px;
+}
+	
+body {
+	margin: 0 0 0 0; 
+	background-color: #ffffff;
+}
+h1 {
+	font-size: 34px;
+	word-spacing: 0.5em;
+}
+h2 {
+	font-size: 26px;
+	padding: 5px;
+	margin-top: 10px;
+}
+h3 {
+	font-size: 22px;
+	padding: 5px;
+	margin-top: 10px;
+}
+h4 {
+	font-size: 20px;
+	padding: 5px;
+	margin-top: 10px;
+}
+p {
+	font-size: 8px
+	margin:0;
+	line-height: 1;
+}
+a:link {
+	color: #d25833;
+}
+a:visited {
+	color: #d25833;
+}
+a:hover {
+	color: #e3937a;
+}
+a:active {
+	color: #ff6a3b;
+}
+img {
+	max-width:18%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+/* ヘッダー */
+.theme {
+	text-align: center;
+	margin: 0; 
+	color: #f0ffff;
+
+}
+.header {
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	margin: 0;
+	background-color: #4169e1;
+}
+      
+
+/*　フッター　*/
+.footer {
+	background-color: #f5f5f5;
+	width: 100%;
+}
+#copyright {
+	text-align: center;
+	font-size: 12px;
+	padding: 20px;
+	margin: 0px;
+}
+
+
+/* メイン　*/
+#date {
+	padding-right: 20px; 
+	font-size:12
+	display: block;
+	text-align: right;
+}
+
+
+/*　ナビゲーション */
+#home {
+	color: white;
+	width: 220px;
+	border: 1px solid #ffffff;
+	padding: 10px;
+}
+ul.nav2 {
+	margin: 0px;
+	padding: 0 0 0 15px;
+	background-color: #cc0000;
+}
+ul.nav2 li {
+	width: 275px;
+	display: inline-block;
+	list-style-type: none;
+	position: relative;
+}
+ul.nav2 a {
+	background-color: #cc0000;
+	color: white;
+	line-height: 40px;
+	text-align: center; 
+	text-decoration: none;
+	display: block;
+}
+ul.nav2 a:hover {
+	background-color: #ffdddd;
+	color:dd0000;
+}
+ul.nav2 ul {
+	margin: 0px;
+	padding: 0px;
+	display: none;
+	position: absolute;
+}
+ul.nav2 li:hover > ul {
+	display: block;
+}
+ul.nav2 ul li {
+	width: 300px;
+	border-top: 1px solid pink;
+}
+ul.nav2 ul li a {
+	line-height: 35px;
+	text-align: left;
+	padding-left: 5px;
+}
+ul.nav2 ul li a:focus {
+	background-color: #ffff80;
+	color: #005500;
+}
+ul.nav2 ul ul {
+	margin: 0px;
+	padding: 0px;
+	display: none; 
+	position: absolute;
+	top: -1px;
+	left: 100%;
+	border-left: 1px solid pink;
+}
+
+
+
+
+.blank {
+	margin-bottom: 160px;
+}
+
+
+#introduction, #info, #types, #personal, #usage, #tracking, #use, #transfer, #disclosure, #legal, #security, #service, #links, #children, #changes, #contact {
+	margin-top: -175px;
+	padding-top: 160px;
+}
+
+/*　レイアウト　*/
+
+#privacy {
+	text-align: Center;
+}
+ul {
+	margin: 10px; 
+}
+.info2 {
+	margin-bottom: 40px;
+}
+
+.introduction, .info, .use, .transfer, .disclosure, .security, .service, .links, .children, .changes, .contact { 
+	margin-bottom: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	padding: 20px;
+	background-color: #f0f8ff;
+	border: 1px dashed #f0f8ff;
+}
+
+
+
+
+
