@@ -112,7 +112,7 @@ ul.nav2 {
 	background-color: #cc0000;
 }
 ul.nav2 li {
-	width: 275px;
+	width: 400px;
 	display: inline-block;
 	list-style-type: none;
 	position: relative;
@@ -139,7 +139,7 @@ ul.nav2 li:hover > ul {
 	display: block;
 }
 ul.nav2 ul li {
-	width: 300px;
+	width: 400px;
 	border-top: 1px solid pink;
 }
 ul.nav2 ul li a {
